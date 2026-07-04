@@ -1,0 +1,87 @@
+.navbar{
+    background-color: navy !important;
+}
+
+
+.navbar .nav-link,
+.navbar .navbar-brand{
+    color: rgba(247, 239, 239, 1) !important;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: navy;
+  padding: 10px 20px;
+}
+
+
+body{
+    padding-top: 50px;
+}
+
+.Banner {
+    height:90vh;
+    background-image:url("img1.jpeg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+}
+
+.Banner  h1{
+    font-size:60px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.Banner  p{
+    font-size:22px;
+    color: black; 
+}
+
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card{
+    border:none;
+    border-radius:10px;
+}
+
+
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+
+.btn-primary{
+    width:100%;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.rounded-circle{
+    object-fit: cover;
+    border: 3px solid #0d6efd;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    transition: 0.3s;
+}

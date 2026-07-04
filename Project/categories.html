@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Categories - My Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link rel="stylesheet" href="web.css">
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    /* Header */
+    .header {
+      background-color: navy;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Container */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Category Card */
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      color: gray;
+      font-size: 14px;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: navy;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+<!-- Navbar starts here -->
+     
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Urban Mart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html">Cart</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="categories.html">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Go</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <div class="header">
+    Product Categories
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="E.jpeg" alt="Electronics">
+      <h3>Electronics</h3>
+      <p>Mobiles, laptops, gadgets</p>
+    </div>
+
+    <div class="card">
+      <img src="F.jpeg" alt="Fashion">
+      <h3>Fashion</h3>
+      <p>Men & Women clothing</p>
+    </div>
+
+    <div class="card">
+      <img src="B.jpeg" alt="Beauty">
+      <h3>Beauty</h3>
+      <p>Cosmetics & skincare</p>
+    </div>
+
+    <div class="card">
+      <img src="D.jpeg" alt="Home">
+      <h3>Home & Kitchen</h3>
+      <p>Furniture & appliances</p>
+    </div>
+
+    <div class="card">
+      <img src="S.jpeg" alt="Sports">
+      <h3>Sports</h3>
+      <p>Fitness & outdoor gear</p>
+    </div>
+
+    <div class="card">
+      <img src="Bo.jpeg" alt="Books">
+      <h3>Books</h3>
+      <p>Study & fiction books</p>
+    </div>
+
+    <div class="card">
+      <img src="T.jpeg" alt="Toys">
+      <h3>Toys</h3>
+      <p>Kids toys & games</p>
+    </div>
+
+    <div class="card">
+      <img src="D.jpeg" alt="Grocery">
+      <h3>Grocery</h3>
+      <p>Daily essentials</p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 My Shop. All rights reserved.
+  </div>
+  <!--Footer-->
+
+<footer class="bg-dark text-white pt-5 pb-3">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <h4>NovaStore</h4>
+                <p>Your one-stop destination for fashion, electronics, shoes, and more.</p>
+            </div>
+
+            <div class="col-md-2">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="shop.html" class="text-white text-decoration-none">Shop</a></li>
+                    <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                    <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Contact</h5>
+                <p>Email: support@novastore.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Follow Us</h5>
+                <p>Facebook | Instagram | X | LinkedIn</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center mb-0">
+            © 2026 NovaStore. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+
+
+</body>
+</html>

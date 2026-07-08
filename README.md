@@ -26,6 +26,8 @@ UrbanMart1 is a full-stack e-commerce web application developed using Spring Boo
 - Bootstrap 5
 - MySQL
 - Maven
+- Git
+- GitHub
 
 
 ## Project Structure
@@ -73,3 +75,8 @@ This project helped me gain practical experience in:
 - MVC Architecture
 - Database Integration
 - Building Responsive Web Applications
+
+## Author
+** Gadde Saleema **
+Java Full Stack Developer
+

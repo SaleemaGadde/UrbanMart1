@@ -46,7 +46,7 @@ src/
 2. Open the project in Eclipse or IntelliJ IDEA.
 3. Configure MySQL and update the database details in "application.properties".
 4. Run the Spring Boot application.
-5. Open your browser and visit:  http://localhost:8080
+5. Open your browser and visit:  http://localhost:8082/
 
 ## Demo Video
 

@@ -51,7 +51,7 @@ src/
 ## Demo Video
 
 - A Demonstration of the UrbanMart1 application is available in this repository
-Project Demo:
+Project Demo: 
   
 ## Future Enhancements 
 

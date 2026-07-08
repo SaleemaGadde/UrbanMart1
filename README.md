@@ -51,7 +51,9 @@ src/
 ## Demo Video
 
 - A Demonstration of the UrbanMart1 application is available in this repository
-Project Demo: 
+- You can  check the projectdemo using the link below
+  # Project Demo:
+  https://github.com/SaleemaGadde/UrbanMart1/blob/7f29d79fce71c8398f61a064189b04718bb2702d/04.07.2026_19.23.46_REC.mp4
   
 ## Future Enhancements 
 
